@@ -44,3 +44,37 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+mkdir ./src/components/
+>> touch ./src/components/Navbar.tsx
+>> touch ./src/components/PrivateRoute.tsx
+>>
+>> mkdir ./src/context/
+>> touch ./src/context/AuthProvider.tsx
+>>
+>> mkdir ./src/hooks/
+>> touch ./src/hooks/useAuth.tsx
+>>
+>> mkdir ./src/pages/
+>> touch ./src/pages/Admin.tsx
+>> touch ./src/pages/Logout.tsx
+>> touch ./src/pages/Main.tsx
+>>
+>> mkdir ./src/routes
+>> touch ./src/routes/routes.tsx
+
+#Создаем новое React приложение с TypeScript шаблоном в директории dms-auth-simple с помощью команды npx create-react-app
+npx create-react-app dms-auth-simple --template typescript
+
+#Переходим в созданную директорию
+cd dms-auth-simple/
+
+#Устанавливаем библиотеку react-router-dom с помощью команды npm install
+npm install --save react-router-dom
+
+#Открываем приложение в редакторе кода Visual Studio Code
+code .
+
+#Запускаем приложение
+npm start
